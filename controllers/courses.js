@@ -5,7 +5,8 @@ const Tutor = require('../models/Tutor');
 module.exports = {
   index: async (req, res) => {
     const courses = await Course
-      .query();
+      .query()
+      .orderBy('courseCode');
     res.send(courses);
   },
 
@@ -22,7 +23,7 @@ module.exports = {
       .query()
       .insert({
         courseCode: req.body.courseCode,
-        courseName: req.body.courseName
+        courseName: req.body.courseName || "College Course"
       });
     res.send(newCourse);
   },

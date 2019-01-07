@@ -18,7 +18,7 @@ class Course extends Model {
   static get jsonSchema() {
     return {
       type: 'object',
-      required: ['courseCode', 'courseName'],
+      required: ['courseCode'],
 
       properties: {
         id: { type: 'integer' },
