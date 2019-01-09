@@ -4,8 +4,8 @@ module.exports = {
   index: async (req, res) => {
     const tutors = await Tutor
       .query()
-      .orderBy('lastName')
-      .orderBy('firstName');
+      .orderBy('firstName')
+      .orderBy('lastName');
     res.send(tutors);
   },
 

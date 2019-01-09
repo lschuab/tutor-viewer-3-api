@@ -15,18 +15,18 @@ const fall2018 =
 "&JoAnn,Gibbs|LSC/1,11-0,14-0/2,11-0,14-0|ASB/102/202/211/214/222/223/235_ASM/104/275_BIO/100/105/145/156/160/181/182/201/202_COM/XXX_ECN/211/212_GLG/101/102/110_HIS/100/101/102/103/104/110/111/113/114/273/277_PHI/XXX_PSY/101/132/240/250/260/266/290_SOC/101/130/140/212/270" +
 "&Bill,Hamilton|LSC/1,8-1,12-0/1,13-0,19-0/2,8-1,12-0/2,13-0,19-0/4,10-1,15-1|BPC/101/120/110_CHM/103/151/152/230_CIS/105/114/117/150" +
 "&Brenda,Hitesman|LSC/1,9-0,15-0|TWC/XXX" +
-"&Bill,Johns|LSC/1,16-0,19-0/3,16-0,19-0|MAT/081/082/092/093/102/120/121/122/142/150/151/182/187/213/217/220" +
+"&Bill,Johns|ML/1,16-0,19-0/3,16-0,19-0|MAT/081/082/092/093/102/120/121/122/142/150/151/182/187/213/217/220" +
 "&Rishi,Kapoor|LSC/2,13-0,19-0/4,13-0,19-0/5,11-0,17-0|BIO/100/105/156/160/180/182/201/202/205/240/260_CHM/130/151/152/235/236_EMT/104_HCR/240_PHY/111/112" +
 "&Hildegard,Koester|LSC/3,15-1,16-1/4,15-1,16-1|GER/XXX" +
 "&Harold,Levin|LSC/1,9-1,13-1/3,9-1,13-1|MAT/120/121/122/140/141/142/150/151/182/187/206/212/213/220/230/257/206_PHY/101/111/121_GBS/221_PSY/230_CIS/150/162/163" +
-"&John,Meggesin|LSC/1,12-0,16-0/4,12-0,15-1|MAT/081/082/092/093/102/121/122/150/151/182/187/220_PHY/111/112/121/131" +
+"&John,Meggesin|ML/1,12-0,16-0/4,12-0,15-1|MAT/081/082/092/093/102/121/122/150/151/182/187/220_PHY/111/112/121/131" +
 "&Linda,Maley|LSC/1,9-0,15-0/3,9-0,15-0|TWC/XXX" + 
 "&Patrick,McKenna|LSC/3,8-0,9-0/3,17-0,19-0/4,13-1,15-1|EMT/XXX" +
 "&Caitlyn,Miller|LSC/1,12-0,15-0/3,10-0,13-0|BIO/156/160/201/205" +
 "&Erica,Niemoth|LSC/1,12-0,13-0/3,12-0,13-0/5,12-0,14-0|SPA/XXX" +
 "&David,Petersen|LSC/1,14-0,16-0|NUR/XXX" +
 "&Kevin,Rosas Hope|LSC/1,9-0,15-1,3/3,9-0,15-1_Q/1,15-1,18-0/3,15-1,18-0|MAT/081/082/092/093/102/120/121/122/142/150/151/182/187/213/217/220/227/230/241_ECE/103_CSC/120/205" +
-"&Allan,Ratihn|LSC/2,14-0,19-0/4,14-0,19-0|MAT/081/082/092/093/102/120/122" +
+"&Allan,Ratihn|ML/2,14-0,19-0/4,14-0,19-0|MAT/081/082/092/093/102/120/122" +
 "&Melika,Sarkandi|LSC/3,8-0,10-0/5,8-0,11-0|BIO/181_CHM/151/152/235" +
 "&Alan,Schwartz|LSC/2,15-1,19-0/4,15-1,19-0|MAT/081/082/092/093/102/120/121/122/142/150/151/182/187/213/217/220/230_PHY/111/112/121/122" +
 "&Sylvia,Smith|LSC/2,16-1,19-0/4,16-1,19-0/6,10-0,14-0|TWC/XXX" +
@@ -34,7 +34,7 @@ const fall2018 =
 "&Starlight,Tucker|LSC/2,10-0,19-0/3,15-0,19-0/4,10-0,17-1/5,13-0,17-0|TWC/XXX" +
 "&Palak,Verma|LSC/1,8-1,11-1/1,12-0,17-0/2,8-1,17-0|MAT/081/082/092/093/112/120/121/122/140/141/142/150/151/182/187" +
 "&Brock,Weidauer|LSC/4,8-1,14-0|MAT/081/082/092/093/112/120/121/122/142/150/151/182/187/206/212/220_PHY/101/111/112/121/131_PSY/230" +
-"&Amanda,Wiggins|LSC/1,8-1,12-0/2,8-1,12-0/3,14-0,17-0/4,8-1,14-0|MAT/081/082/092/093/120/121/122/140/150/151/187" +
+"&Amanda,Wiggins|ML/1,8-1,12-0/2,8-1,12-0/3,14-0,17-0/4,8-1,14-0|MAT/081/082/092/093/120/121/122/140/150/151/187" +
 "&Jericho,Wolf|LSC/1,8-1,13-0/2,8-1,13-1/3,11-0,17-0/4,8-1,13-0_BM/4,13-1,17-0|AST/101/111/114_BIO/100/105/145/156/181/182/205/240_CHM/130/151/152_GLG/101/103/110/111_GPH/111/211_HIS/100/101/103/104/110" +
 "&Peter,Yip|LSC/4,8-1,14-1_Q/1,8-1,14-1/2,8-1,14-1/3,8-1,14-1|MAT/081/082/092/093/102/120/121/122/142/150/151/182/187/206/213/217/220/230_PSY/230";
 
@@ -82,8 +82,8 @@ function processData(data) {
             const day = dayMap[shiftData[0]];
             const startTimeData = shiftData[1].split("-");
             const endTimeData = shiftData[2].split("-");
-            const startTime = (startTimeData[0].length === 1 ? "0" : "") + startTimeData[0] + ":" + (startTimeData[1] ? "30" : "00");
-            const endTime = (endTimeData[0].length === 1 ? "0" : "") + endTimeData[0] + ":" + (endTimeData[1] ? "30" : "00");
+            const startTime = (startTimeData[0].length === 1 ? "0" : "") + startTimeData[0] + ":" + (startTimeData[1] !== '0' ? "30" : "00");
+            const endTime = (endTimeData[0].length === 1 ? "0" : "") + endTimeData[0] + ":" + (endTimeData[1] !== '0' ? "30" : "00");
 
             console.log(day + ": " + startTime + " - " + endTime);
             axios.post(`${URL}/shifts`, { tutorId, center, day, startTime, endTime });
@@ -104,14 +104,12 @@ function processData(data) {
         console.log(courses);
         console.log("\n\n");
 
-        const promiseArr = [];
-
         for (const course of courses) {
             if (!registeredCourses.hasOwnProperty(course)) {
-              axios.post(`${URL}/courses`, {courseCode: course});
               registeredCourses[course] = courseId++;
+              axios.post(`${URL}/courses`, {courseCode: course});
             }
-            axios.post(`${URL}/tutors/${tutorId}/courses/${registeredCourses[course]}`);
+            axios.post(`${URL}/tutors/${tutorId}/courses/${registeredCourses[course]}`).catch(err => console.log("***", err));
         }
       });
   }

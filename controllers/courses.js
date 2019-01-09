@@ -15,7 +15,7 @@ module.exports = {
       .query()
       .eager('[tutors.shifts]')
       .where('id', req.params.id);
-    res.send(course);
+    res.send(course[0]);
   },
 
   create: async (req, res) => {
