@@ -10,8 +10,9 @@ module.exports = function(app){
   app.patch('/tutors/:id/toggle', tutors.toggle);
   app.delete('/tutors/:id', tutors.delete);
 
-  app.post('/tutors/:id/courses/:course_id', tutors.addCourse)
-  app.delete('/tutors/:id/courses/:cour se_id', tutors.removeCourse)
+  app.post('/tutors/:id/courses/:course_id', tutors.addCourse);
+  app.delete('/tutors/:id/courses/:course_id', tutors.removeCourse);
+  app.delete('/tutors/:id/courses', tutors.clearCourses);
 
   app.get('/courses', courses.index);
   app.get('/courses/:id', courses.show)

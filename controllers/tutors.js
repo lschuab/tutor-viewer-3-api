@@ -83,6 +83,18 @@ module.exports = {
       .where('courses.id', req.params.course_id);
 
     res.send(tutor);
+  },
+
+  clearCourses: async (req, res) => {
+    const tutor = await Tutor
+      .query()
+      .findById(req.params.id);
+
+    const updatedTutor = await tutor
+      .$relatedQuery('courses')
+      .unrelate();
+
+      res.send(tutor);
   }
 
 };
